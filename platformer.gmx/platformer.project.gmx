@@ -11,6 +11,12 @@
   <scripts name="scripts">
     <script>scripts\scr_Scaredy_Walk.gml</script>
   </scripts>
+  <objects name="objects">
+    <object>objects\obj_main_menu</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
