@@ -13,8 +13,6 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_Scaredy_Walk.gml</script>
-    <script>scripts\scr_Detect_Scares.gml</script>
     <script>scripts\scr_menu.gml</script>
   </scripts>
   <fonts name="fonts">
