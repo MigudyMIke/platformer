@@ -4,11 +4,39 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound">
-    <sound>sound\snd_menu_movment</sound>
-  </sounds>
+  <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_Floor</sprite>
     <sprite>sprites\spr_Player</sprite>
+    <sprite>sprites\spr_Floor</sprite>
+    <sprite>sprites\spr_main_menu_select</sprite>
   </sprites>
+  <backgrounds name="background"/>
+  <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_Player_Movement.gml</script>
+    <script>scripts\scr_Detect_Input.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_tile_big</font>
+    <font>fonts\fnt_tile_small</font>
+  </fonts>
+  <objects name="objects">
+    <object>objects\obj_Floor</object>
+    <object>objects\obj_Player</object>
+    <objects name="menu">
+      <object>objects\obj_mein_menu</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_main_menu</room>
+    <room>rooms\rm_Test</room>
+  </rooms>
+  <help>
+    <rtf>help.rtf</rtf>
+  </help>
+  <TutorialState>
+    <IsTutorial>0</IsTutorial>
+    <TutorialName></TutorialName>
+    <TutorialPage>0</TutorialPage>
+  </TutorialState>
 </assets>
