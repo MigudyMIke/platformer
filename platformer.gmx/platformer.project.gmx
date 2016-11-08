@@ -14,9 +14,16 @@
     </sounds>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Floor</sprite>
-    <sprite>sprites\spr_main_menu_select</sprite>
+    <sprites name="player">
+      <sprite>sprites\spr_Player</sprite>
+    </sprites>
+    <sprites name="menu">
+      <sprite>sprites\spr_main_menu_select</sprite>
+    </sprites>
+    <sprites name="triggers">
+      <sprite>sprites\spr_rm_next</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -27,12 +34,16 @@
   <fonts name="fonts">
     <font>fonts\fnt_tile_big</font>
     <font>fonts\fnt_tile_small</font>
+    <font>fonts\fnt_code</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_Floor</object>
     <object>objects\obj_Player</object>
     <objects name="menu">
       <object>objects\obj_mein_menu</object>
+    </objects>
+    <objects name="triggers">
+      <object>objects\obj_rm_next</object>
     </objects>
   </objects>
   <rooms name="rooms">
