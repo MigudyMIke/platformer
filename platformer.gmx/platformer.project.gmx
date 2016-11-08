@@ -9,6 +9,9 @@
       <sound>sound\snd_select</sound>
       <sound>sound\snd_jump</sound>
     </sounds>
+    <sounds name="mucic">
+      <sound>sound\song_3</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Player</sprite>
@@ -33,8 +36,15 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_main_menu</room>
-    <room>rooms\rm_Test</room>
+    <rooms name="menu">
+      <room>rooms\rm_main_menu</room>
+    </rooms>
+    <rooms name="test">
+      <room>rooms\rm_Test</room>
+    </rooms>
+    <rooms name="levels">
+      <room>rooms\rm_blank</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
