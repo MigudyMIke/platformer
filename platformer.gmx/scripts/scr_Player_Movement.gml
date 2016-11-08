@@ -29,6 +29,7 @@ else{
 if(up and can_jump){
     fall_speed = max(max_jump, fall_speed + jump_grav);
     if(fall_speed == max_jump){
+        audio_play_sound (snd_jump, 10, false);
         can_jump = false;
     }
 }

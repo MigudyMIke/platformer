@@ -52,9 +52,11 @@ x = 64;
             <string>if (keyboard_check_pressed (vk_up) &amp;&amp; var_menu &gt; 0)
 {
     var_menu = var_menu - 1;
+    audio_play_sound(snd_select, 10, false);
 }
-if (keyboard_check_pressed (vk_down) &amp;&amp; var_menu &lt; 4)
+if (keyboard_check_pressed (vk_down) &amp;&amp; var_menu &lt; 3)
 {
+    audio_play_sound(snd_select, 10, false);
     var_menu = var_menu + 1;
 }
 switch (var_menu)
