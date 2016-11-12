@@ -18,7 +18,20 @@
 globalvar var_pause;
 var_pause = 0;
 globalvar var_menu;
-var_menu = 0;</code>
+var_menu = 0;
+globalvar X;
+X = 0;
+globalvar Y;
+Y = 0;
+globalvar var_rm_next;
+var_rm_next = 0;
+//save stats
+globalvar var_room;
+var_room = 0;
+globalvar var_health;
+var_health = 0;
+globalvar var_health_max;
+var_health_max = 0;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

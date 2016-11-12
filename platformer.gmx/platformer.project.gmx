@@ -30,6 +30,12 @@
   <scripts name="scripts">
     <script>scripts\scr_Player_Movement.gml</script>
     <script>scripts\scr_Detect_Input.gml</script>
+    <script>scripts\scr_hud.gml</script>
+    <scripts name="save and load">
+      <script>scripts\scr_new.gml</script>
+      <script>scripts\scr_load.gml</script>
+      <script>scripts\scr_save1.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_tile_big</font>
@@ -52,6 +58,7 @@
     </rooms>
     <rooms name="test">
       <room>rooms\rm_Test</room>
+      <room>rooms\rm_test2</room>
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_blank</room>
