@@ -37,6 +37,7 @@ var_room = room;
 var_health = 100 + (var_more_health * 10);
 state = scr_Player_Movement;
 draw = scr_hud;
+loadgame = scr_load;
 </string>
           </argument>
         </arguments>
@@ -66,6 +67,8 @@ script_execute(state);
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -83,8 +86,6 @@ script_execute(state);
           <argument>
             <kind>1</kind>
             <string>var_room = room;
-var_health = 100;
-var_health_max = 100;
 </string>
           </argument>
         </arguments>
