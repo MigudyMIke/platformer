@@ -37,6 +37,10 @@ if(keyboard_check_released(vk_up)){
     can_jump = false;
 }
 
+//If walking off an edge, not able to jump in midair
+if(!place_meeting(x, y - 1, obj_Floor) and !up){
+    can_jump = false;
+}
 
 //Falling and gravity
 if(!place_meeting(x, y + min(fall_speed, max_fall_speed), obj_Floor)){

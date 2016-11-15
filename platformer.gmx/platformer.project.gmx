@@ -24,6 +24,9 @@
     <sprites name="triggers">
       <sprite>sprites\spr_rm_next</sprite>
     </sprites>
+    <sprite>sprites\spr_Turret</sprite>
+    <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_EnemyWalk</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -36,6 +39,8 @@
       <script>scripts\scr_load.gml</script>
       <script>scripts\scr_save1.gml</script>
     </scripts>
+    <script>scripts\scr_Player_Knockback.gml</script>
+    <script>scripts\scr_Player_Invincibility_Frames.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_tile_big</font>
@@ -51,6 +56,9 @@
     <objects name="triggers">
       <object>objects\obj_rm_next</object>
     </objects>
+    <object>objects\obj_Turret</object>
+    <object>objects\obj_Bullet</object>
+    <object>objects\obj_EnemyWalk</object>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">
@@ -64,6 +72,10 @@
       <room>rooms\rm_blank</room>
     </rooms>
   </rooms>
+  <constants number="2">
+    <constant name="MOVING_RIGHT">1</constant>
+    <constant name="MOVING_LEFT">-1</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
