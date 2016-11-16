@@ -34,6 +34,7 @@ fall_speed = 0;
 max_fall_speed = 10;
 knockback = 10;
 kb_direction = 0;
+facing = MOVING_RIGHT;
 //save
 var_room = room;
 var_health = 100 + (var_more_health * 10);
