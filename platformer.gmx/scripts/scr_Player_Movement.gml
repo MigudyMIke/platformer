@@ -8,11 +8,13 @@ if(move_h > 0){
 //Place code for sprite facing right here.  
 //If sprite is symmetrical, image_xscale = 1 will work fine.
 //If asymmetrical, change the sprite_index.
+facing = MOVING_RIGHT;
 }
 else if(move_h < 0){
 //Place code for sprite facing left here.  
 //If sprite is symmetrical, image_xscale = -1 will work fine.
 //If asymmetrical, change the sprite_index.
+facing = MOVING_LEFT;
 }
 
 //Collision detection
@@ -27,9 +29,11 @@ else{
 
 //Jumping
 if(up and can_jump){
+    if(fall_speed = 0){
+        audio_play_sound (snd_jump, 10, false);
+    }
     fall_speed = max(max_jump, fall_speed + jump_grav);
     if(fall_speed == max_jump){
-        audio_play_sound (snd_jump, 10, false);
         can_jump = false;
     }
 }
@@ -60,4 +64,9 @@ if(place_meeting(x, y - 1, obj_Floor)){
 }
 else if(place_meeting(x, y + 1, obj_Floor)){
     can_jump = true;
+}
+
+//Attack
+if(space){
+    state = scr_Player_Attack;
 }

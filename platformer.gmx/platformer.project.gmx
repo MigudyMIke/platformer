@@ -27,6 +27,7 @@
     <sprite>sprites\spr_Turret</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_EnemyWalk</sprite>
+    <sprite>sprites\spr_Attack_Placeholder</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -41,6 +42,7 @@
     </scripts>
     <script>scripts\scr_Player_Knockback.gml</script>
     <script>scripts\scr_Player_Invincibility_Frames.gml</script>
+    <script>scripts\scr_Player_Attack.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_tile_big</font>
@@ -59,6 +61,7 @@
     <object>objects\obj_Turret</object>
     <object>objects\obj_Bullet</object>
     <object>objects\obj_EnemyWalk</object>
+    <object>objects\obj_Attack_Placeholder</object>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">
