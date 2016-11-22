@@ -29,3 +29,9 @@ else{
     state = scr_Player_Invincibility_Frames;
     alarm[1] = room_speed;
 }
+
+//Stop attacking when knockedback
+if(instance_exists(obj_Attack_Placeholder)){
+    attack_state = scr_Attack_None;
+    with(obj_Attack_Placeholder) instance_destroy();
+}

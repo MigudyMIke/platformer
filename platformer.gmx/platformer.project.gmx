@@ -20,6 +20,7 @@
     </sprites>
     <sprites name="menu">
       <sprite>sprites\spr_main_menu_select</sprite>
+      <sprite>sprites\spr_no_save</sprite>
     </sprites>
     <sprites name="triggers">
       <sprite>sprites\spr_rm_next</sprite>
@@ -28,21 +29,27 @@
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_EnemyWalk</sprite>
     <sprite>sprites\spr_Attack_Placeholder</sprite>
+    <sprite>sprites\spr_save</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_Player_Movement.gml</script>
     <script>scripts\scr_Detect_Input.gml</script>
+    <scripts name="Player States">
+      <script>scripts\scr_Player_Movement.gml</script>
+      <script>scripts\scr_Player_Knockback.gml</script>
+      <script>scripts\scr_Player_Invincibility_Frames.gml</script>
+    </scripts>
+    <scripts name="Player Attack States">
+      <script>scripts\scr_Attack_None.gml</script>
+      <script>scripts\scr_Attack_Melee.gml</script>
+    </scripts>
     <script>scripts\scr_hud.gml</script>
     <scripts name="save and load">
       <script>scripts\scr_new.gml</script>
       <script>scripts\scr_load.gml</script>
       <script>scripts\scr_save1.gml</script>
     </scripts>
-    <script>scripts\scr_Player_Knockback.gml</script>
-    <script>scripts\scr_Player_Invincibility_Frames.gml</script>
-    <script>scripts\scr_Player_Attack.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_tile_big</font>
@@ -54,9 +61,11 @@
     <object>objects\obj_Player</object>
     <objects name="menu">
       <object>objects\obj_mein_menu</object>
+      <object>objects\obj_no_save</object>
     </objects>
     <objects name="triggers">
       <object>objects\obj_rm_next</object>
+      <object>objects\obj_save</object>
     </objects>
     <object>objects\obj_Turret</object>
     <object>objects\obj_Bullet</object>
@@ -70,6 +79,7 @@
     <rooms name="test">
       <room>rooms\rm_Test</room>
       <room>rooms\rm_test2</room>
+      <room>rooms\rm_test_save</room>
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_blank</room>

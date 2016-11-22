@@ -1,8 +1,12 @@
 ///scr_Player_Movement()
 scr_Detect_Input();
 
-move_h = right - left;
-
+if(attack_state == scr_Attack_None){
+    move_h = right - left;
+}
+else{
+    move_h = 0;
+}
 //Sprite Facing
 if(move_h > 0){
 //Place code for sprite facing right here.  
@@ -67,6 +71,7 @@ else if(place_meeting(x, y + 1, obj_Floor)){
 }
 
 //Attack
-if(space){
-    state = scr_Player_Attack;
+if(space and attack_state == scr_Attack_None){
+    attack_state = scr_Attack_Melee;
 }
+script_execute(attack_state);
