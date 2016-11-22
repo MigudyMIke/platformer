@@ -36,9 +36,10 @@ knockback = 10;
 kb_direction = 0;
 facing = MOVING_RIGHT;
 //save
+var_health = 100 + (var_health_more * 10);
 var_room = room;
-var_health = 100 + (var_more_health * 10);
 state = scr_Player_Movement;
+attack_state = scr_Attack_None;
 draw = scr_hud;
 loadgame = scr_load;
 </string>
@@ -109,30 +110,22 @@ loadgame = scr_load;
             <kind>1</kind>
             <string>///Execute state
 script_execute(state);
+///death
+if (var_health &lt;= 0)
+{
+    //death amination and maybe a continue screen
+    //then
+    script_execute(scr_new);
+}
+if (var_health &gt; (100 + ( var_health_more * 10)))
+{
+    var_health = 100 + ( var_health_more * 10);
+}
+if (keyboard_check_pressed(vk_escape))
+{
+    room_goto(rm_main_menu);
+}
 
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="7" enumb="4">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>var_room = room;
 </string>
           </argument>
         </arguments>
@@ -157,6 +150,29 @@ script_execute(state);
             <kind>1</kind>
             <string>///Execute state
 script_execute(draw);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self();
 </string>
           </argument>
         </arguments>

@@ -64,23 +64,24 @@ switch (var_menu)
     //New
     case 0:
         y = 160;
-        if (keyboard_check_pressed (vk_space))
+        if (keyboard_check_pressed (vk_enter))
         {
+            script_execute(scr_new);
             room_goto (rm_Test);
         }
         break;
     //contionue
     case 1:
         y = 256;
-        if (keyboard_check_pressed (vk_space))
+        if (keyboard_check_released (vk_enter))
         {
-            room_goto (rm_Test);
+            script_execute(scr_load);
         }
         break;
     //Options
     case 2:
         y = 352;
-        if (keyboard_check_pressed (vk_space))
+        if (keyboard_check_released (vk_enter))
         {
             room_goto (rm_Test);
         }
@@ -88,7 +89,7 @@ switch (var_menu)
     //exit
     case 3:
         y = 448;
-        if (keyboard_check_pressed (vk_space))
+        if (keyboard_check_pressed (vk_enter))
         {
             game_end();
         }
