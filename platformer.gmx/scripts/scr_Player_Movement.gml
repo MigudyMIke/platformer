@@ -72,6 +72,16 @@ else if(place_meeting(x, y + 1, obj_Floor)){
 
 //Attack
 if(space and attack_state == scr_Attack_None){
-    attack_state = scr_Attack_Melee;
+    attack_state = current_attack;
 }
 script_execute(attack_state);
+
+//Switch weapons
+if(z){
+    if(current_attack == scr_Attack_Melee){
+        current_attack = scr_Attack_Ranged;
+    }
+    else if(current_attack == scr_Attack_Ranged){
+        current_attack = scr_Attack_Melee;
+    }
+}

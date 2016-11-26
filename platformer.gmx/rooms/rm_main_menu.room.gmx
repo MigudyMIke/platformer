@@ -26,12 +26,6 @@ globalvar var_pause;
 var_pause = 0;
 globalvar var_menu;
 var_menu = 0;
-globalvar X;
-X = 0;
-globalvar Y;
-Y = 0;
-globalvar var_rm_next;
-var_rm_next = 0;
 //save stats
 globalvar var_room;
 var_room = 0;
