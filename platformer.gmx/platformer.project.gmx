@@ -27,6 +27,7 @@
     </sprites>
     <sprite>sprites\spr_Turret</sprite>
     <sprite>sprites\spr_bullet</sprite>
+    <sprite>sprites\spr_Player_Bullet</sprite>
     <sprite>sprites\spr_EnemyWalk</sprite>
     <sprite>sprites\spr_Attack_Placeholder</sprite>
     <sprite>sprites\spr_save</sprite>
@@ -43,6 +44,7 @@
     <scripts name="Player Attack States">
       <script>scripts\scr_Attack_None.gml</script>
       <script>scripts\scr_Attack_Melee.gml</script>
+      <script>scripts\scr_Attack_Ranged.gml</script>
     </scripts>
     <script>scripts\scr_hud.gml</script>
     <scripts name="save and load">
@@ -71,6 +73,7 @@
     <object>objects\obj_Bullet</object>
     <object>objects\obj_EnemyWalk</object>
     <object>objects\obj_Attack_Placeholder</object>
+    <object>objects\obj_Player_Bullet</object>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">
