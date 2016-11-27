@@ -31,6 +31,7 @@
     <sprite>sprites\spr_EnemyWalk</sprite>
     <sprite>sprites\spr_Attack_Placeholder</sprite>
     <sprite>sprites\spr_save</sprite>
+    <sprite>sprites\spr_slope</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -59,7 +60,6 @@
     <font>fonts\fnt_code</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_Floor</object>
     <object>objects\obj_Player</object>
     <objects name="menu">
       <object>objects\obj_mein_menu</object>
@@ -70,6 +70,11 @@
       <object>objects\obj_save</object>
     </objects>
     <object>objects\obj_Turret</object>
+    <objects name="Solids">
+      <object>objects\obj_Solids</object>
+      <object>objects\obj_Slope</object>
+      <object>objects\obj_Floor</object>
+    </objects>
     <object>objects\obj_Bullet</object>
     <object>objects\obj_EnemyWalk</object>
     <object>objects\obj_Attack_Placeholder</object>

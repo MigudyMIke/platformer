@@ -30,6 +30,13 @@ else{
         x += sign(move_h);
     }
 }
+if(place_meeting(x + move_speed * move_h, y + min(fall_speed, max_fall_speed), obj_Slope)){
+    while(place_meeting(x, y, obj_Slope)){
+        y -= 1;
+    }
+}
+
+
 
 //Jumping
 if(up and can_jump){
@@ -46,27 +53,27 @@ if(keyboard_check_released(vk_up)){
 }
 
 //If walking off an edge, not able to jump in midair
-if(!place_meeting(x, y - 1, obj_Floor) and !up){
+if(!place_meeting(x, y - 1, obj_Solids) and !up){
     can_jump = false;
 }
 
 //Falling and gravity
-if(!place_meeting(x, y + min(fall_speed, max_fall_speed), obj_Floor)){
+if(!place_meeting(x, y + min(fall_speed, max_fall_speed), obj_Solids)){
         y += min(fall_speed, max_fall_speed);
         fall_speed += grav;
     }
 else{
-    while(!place_meeting(x, y + sign(fall_speed), obj_Floor)){
+    while(!place_meeting(x, y + sign(fall_speed), obj_Solids)){
         y += sign(fall_speed);
     }
     fall_speed = 0;
 }
 
 //Reset jumping
-if(place_meeting(x, y - 1, obj_Floor)){
+if(place_meeting(x, y - 1, obj_Solids)){
     can_jump = false;
 }
-else if(place_meeting(x, y + 1, obj_Floor)){
+else if(place_meeting(x, y + 1, obj_Solids)){
     can_jump = true;
 }
 
