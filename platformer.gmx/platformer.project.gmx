@@ -27,11 +27,10 @@
     </sprites>
     <sprite>sprites\spr_Turret</sprite>
     <sprite>sprites\spr_bullet</sprite>
-    <sprite>sprites\spr_Player_Bullet</sprite>
     <sprite>sprites\spr_EnemyWalk</sprite>
     <sprite>sprites\spr_Attack_Placeholder</sprite>
     <sprite>sprites\spr_save</sprite>
-    <sprite>sprites\spr_slope</sprite>
+    <sprite>sprites\spr_game_load</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -45,13 +44,15 @@
     <scripts name="Player Attack States">
       <script>scripts\scr_Attack_None.gml</script>
       <script>scripts\scr_Attack_Melee.gml</script>
-      <script>scripts\scr_Attack_Ranged.gml</script>
     </scripts>
     <script>scripts\scr_hud.gml</script>
     <scripts name="save and load">
       <script>scripts\scr_new.gml</script>
       <script>scripts\scr_load.gml</script>
       <script>scripts\scr_save1.gml</script>
+      <script>scripts\scr_save2.gml</script>
+      <script>scripts\scr_save3.gml</script>
+      <script>scripts\scr_save4.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -60,29 +61,29 @@
     <font>fonts\fnt_code</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_Floor</object>
     <object>objects\obj_Player</object>
     <objects name="menu">
       <object>objects\obj_mein_menu</object>
       <object>objects\obj_no_save</object>
+      <object>objects\obj_load_game</object>
+      <objects name="game save">
+        <object>objects\obj_game_load</object>
+      </objects>
     </objects>
     <objects name="triggers">
       <object>objects\obj_rm_next</object>
       <object>objects\obj_save</object>
     </objects>
     <object>objects\obj_Turret</object>
-    <objects name="Solids">
-      <object>objects\obj_Solids</object>
-      <object>objects\obj_Slope</object>
-      <object>objects\obj_Floor</object>
-    </objects>
     <object>objects\obj_Bullet</object>
     <object>objects\obj_EnemyWalk</object>
     <object>objects\obj_Attack_Placeholder</object>
-    <object>objects\obj_Player_Bullet</object>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">
       <room>rooms\rm_main_menu</room>
+      <room>rooms\rm_load_game</room>
     </rooms>
     <rooms name="test">
       <room>rooms\rm_Test</room>
@@ -91,6 +92,11 @@
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_blank</room>
+      <rooms name="tutorial">
+        <room>rooms\rm_intro</room>
+        <room>rooms\rm_trl_jump</room>
+        <room>rooms\rm_trl_enemys</room>
+      </rooms>
     </rooms>
   </rooms>
   <constants number="2">

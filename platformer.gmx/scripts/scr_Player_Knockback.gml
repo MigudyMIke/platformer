@@ -1,19 +1,19 @@
 ///scr_Player_Knockback()
 if(alarm[0] > 0){
-    if(!place_meeting(x + lengthdir_x(knockback, kb_direction), y, obj_Solids)){
+    if(!place_meeting(x + lengthdir_x(knockback, kb_direction), y, obj_Floor)){
         x += lengthdir_x(knockback, kb_direction);
     }
     else{
-        while(!place_meeting(x + lengthdir_x(knockback, kb_direction), y, obj_Solids)){
+        while(!place_meeting(x + lengthdir_x(knockback, kb_direction), y, obj_Floor)){
         x += sign(lengthdir_x(knockback, kb_direction));
         }
     }
-    if(!place_meeting(x, y + lengthdir_y(knockback, kb_direction), obj_Solids)){
+    if(!place_meeting(x, y + lengthdir_y(knockback, kb_direction), obj_Floor)){
         y += lengthdir_y(knockback, kb_direction);
         fall_speed = lengthdir_y(knockback, kb_direction);
     }
     else{
-        while(!place_meeting(x, y + sign(lengthdir_y(knockback, kb_direction)), obj_Solids)){
+        while(!place_meeting(x, y + sign(lengthdir_y(knockback, kb_direction)), obj_Floor)){
             y += sign(lengthdir_y(knockback, kb_direction));
         }
         fall_speed = 0;
