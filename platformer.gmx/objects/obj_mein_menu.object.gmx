@@ -67,7 +67,7 @@ switch (var_menu)
         if (keyboard_check_pressed (vk_enter))
         {
             script_execute(scr_new);
-            room_goto (rm_Test);
+            room_goto (rm_intro);
         }
         break;
     //contionue
@@ -123,7 +123,7 @@ draw_set_font (fnt_tile_big);
 draw_text ( 96, 64, "Name");
 draw_set_font ( fnt_tile_small);
 draw_text ( 96, 160, "New");
-draw_text ( 96, 256, "Comtinue");
+draw_text ( 96, 256, "Continue");
 draw_text ( 96, 352, "Options");
 draw_text ( 96, 448, "Exit");
 draw_self ();

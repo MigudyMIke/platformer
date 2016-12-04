@@ -35,7 +35,6 @@ max_fall_speed = 10;
 knockback = 10;
 kb_direction = 0;
 facing = MOVING_RIGHT;
-current_attack = scr_Attack_Melee;
 //save
 var_health = 100 + (var_health_more * 10);
 var_room = room;
@@ -44,28 +43,6 @@ attack_state = scr_Attack_None;
 draw = scr_hud;
 loadgame = scr_load;
 </string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="2">
-      <action>
-        <libid>1</libid>
-        <id>605</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>Ranged Attack limiter</string>
           </argument>
         </arguments>
       </action>
