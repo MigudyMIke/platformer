@@ -32,7 +32,9 @@
     <sprite>sprites\spr_save</sprite>
     <sprite>sprites\spr_game_load</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_dev_notes</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_Detect_Input.gml</script>
@@ -96,6 +98,12 @@
         <room>rooms\rm_intro</room>
         <room>rooms\rm_trl_jump</room>
         <room>rooms\rm_trl_enemys</room>
+      </rooms>
+      <rooms name="Section jumping">
+        <room>rooms\rm_sj_1</room>
+        <room>rooms\rm_sj_2</room>
+        <room>rooms\rm_sj_3</room>
+        <room>rooms\rm_sj_4</room>
       </rooms>
     </rooms>
   </rooms>
