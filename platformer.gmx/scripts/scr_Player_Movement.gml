@@ -72,6 +72,9 @@ if(have_jetpack and up and second_jump and !first_jump){
         second_jump = false;
     }
 }
+if(keyboard_check_released(vk_up) and !second_jump_start){
+    second_jump = false;
+}
 
 
 //Falling and gravity
