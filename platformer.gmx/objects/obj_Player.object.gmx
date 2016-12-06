@@ -25,22 +25,35 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>move_speed = 5;
-can_jump = false;
+            <string>///Initialize variables
+move_speed = 5;
+facing = MOVING_RIGHT;
+
+//Jumping variables
+first_jump = false;
+second_jump = false;
+second_jump_start = true;
+have_jetpack = true;
+
+//Gravity and falling
 jump_grav = -2;
 max_jump = -20;
 grav = 1;
 fall_speed = 0;
 max_fall_speed = 10;
+
+//Knockback
 knockback = 10;
 kb_direction = 0;
-facing = MOVING_RIGHT;
+
+//Player states
 current_attack = scr_Attack_Melee;
+state = scr_Player_Movement;
+attack_state = scr_Attack_None;
+
 //save
 var_health = 100 + (var_health_more * 10);
 var_room = room;
-state = scr_Player_Movement;
-attack_state = scr_Attack_None;
 draw = scr_hud;
 loadgame = scr_load;
 </string>

@@ -39,23 +39,40 @@ if(place_meeting(x + move_speed * move_h, y + min(fall_speed, max_fall_speed), o
 
 
 //Jumping
-if(up and can_jump){
-    if(fall_speed = 0){
+if(up and first_jump){
+    if(fall_speed == 0){
         audio_play_sound (snd_jump, 10, false);
+    }
+    second_jump = false;
+    fall_speed = max(max_jump, fall_speed + jump_grav);
+    if(fall_speed == max_jump){
+        first_jump = false;
+        second_jump_start = true;
+    }
+}
+if(keyboard_check_released(vk_up) and second_jump_start){
+    first_jump = false;
+    second_jump = true;
+}
+
+//If walking off an edge, not able to jump in midair unless obtained double jump
+if(!place_meeting(x, y - 1, obj_Solids) and !up){
+    first_jump = false;
+}
+
+//Double Jump
+if(have_jetpack and up and second_jump and !first_jump){
+    if(second_jump_start){
+        audio_play_sound (snd_jump, 10, false);
+        fall_speed = 0;
+        second_jump_start = false;
     }
     fall_speed = max(max_jump, fall_speed + jump_grav);
     if(fall_speed == max_jump){
-        can_jump = false;
+        second_jump = false;
     }
 }
-if(keyboard_check_released(vk_up)){
-    can_jump = false;
-}
 
-//If walking off an edge, not able to jump in midair
-if(!place_meeting(x, y - 1, obj_Solids) and !up){
-    can_jump = false;
-}
 
 //Falling and gravity
 if(!place_meeting(x, y + min(fall_speed, max_fall_speed), obj_Solids)){
@@ -71,10 +88,13 @@ else{
 
 //Reset jumping
 if(place_meeting(x, y - 1, obj_Solids)){
-    can_jump = false;
+    first_jump = false;
+    second_jump = false;
 }
 else if(place_meeting(x, y + 1, obj_Solids)){
-    can_jump = true;
+    first_jump = true;
+    second_jump = true;
+    second_jump_start = true;
 }
 
 //Attack
