@@ -92,6 +92,7 @@
     <instance objName="obj_Floor" x="96" y="1824" name="inst_D20B4D3E" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="112" y="1856" name="inst_2D4C9D93" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="128" y="1888" name="inst_E2C50D22" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Jetpack" x="848" y="2160" name="inst_40BCA823" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

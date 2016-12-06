@@ -33,7 +33,7 @@ facing = MOVING_RIGHT;
 first_jump = false;
 second_jump = false;
 second_jump_start = true;
-have_jetpack = true;
+have_jetpack = false;
 
 //Gravity and falling
 jump_grav = -2;

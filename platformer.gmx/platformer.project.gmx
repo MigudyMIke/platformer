@@ -32,6 +32,7 @@
     <sprite>sprites\spr_Attack_Placeholder</sprite>
     <sprite>sprites\spr_save</sprite>
     <sprite>sprites\spr_slope</sprite>
+    <sprite>sprites\spr_jetpack</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -79,6 +80,7 @@
     <object>objects\obj_EnemyWalk</object>
     <object>objects\obj_Attack_Placeholder</object>
     <object>objects\obj_Player_Bullet</object>
+    <object>objects\obj_Jetpack</object>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">
