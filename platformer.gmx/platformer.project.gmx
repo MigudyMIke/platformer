@@ -82,6 +82,7 @@
   </objects>
   <rooms name="rooms">
     <rooms name="menu">
+      <room>rooms\rm_load_stats</room>
       <room>rooms\rm_main_menu</room>
       <room>rooms\rm_load_game</room>
     </rooms>
