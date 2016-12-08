@@ -97,8 +97,11 @@
       <room>rooms\rm_blank</room>
       <rooms name="tutorial">
         <room>rooms\rm_intro</room>
-        <room>rooms\rm_trl_enemys</room>
         <room>rooms\rm_trl_jump</room>
+        <room>rooms\rm_trl_enemys</room>
+      </rooms>
+      <rooms name="section jump">
+        <room>rooms\rm_sj_1</room>
       </rooms>
     </rooms>
   </rooms>
