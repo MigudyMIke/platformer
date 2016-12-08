@@ -32,7 +32,9 @@
     <sprite>sprites\spr_save</sprite>
     <sprite>sprites\spr_game_load</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_dev_notes</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_Detect_Input.gml</script>
@@ -95,15 +97,11 @@
       <room>rooms\rm_blank</room>
       <rooms name="tutorial">
         <room>rooms\rm_intro</room>
-        <room>rooms\rm_trl_jump</room>
         <room>rooms\rm_trl_enemys</room>
+        <room>rooms\rm_trl_jump</room>
       </rooms>
     </rooms>
   </rooms>
-  <constants number="2">
-    <constant name="MOVING_RIGHT">1</constant>
-    <constant name="MOVING_LEFT">-1</constant>
-  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
