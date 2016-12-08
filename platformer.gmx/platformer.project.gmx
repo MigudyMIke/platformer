@@ -33,6 +33,7 @@
     <sprite>sprites\spr_save</sprite>
     <sprite>sprites\spr_slope</sprite>
     <sprite>sprites\spr_Jetpack</sprite>
+    <sprite>sprites\spr_DashBoots</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -81,6 +82,7 @@
     <object>objects\obj_Attack_Placeholder</object>
     <object>objects\obj_Player_Bullet</object>
     <object>objects\obj_Jetpack</object>
+    <object>objects\obj_DashBoots</object>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">

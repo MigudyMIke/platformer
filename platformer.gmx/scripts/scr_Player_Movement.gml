@@ -76,6 +76,26 @@ if(keyboard_check_released(vk_up) and !second_jump_start){
     second_jump = false;
 }
 
+//Dashing
+if(have_dash and x_key and alarm[4] > 0){
+    if(!place_meeting(x + move_speed * 3 * facing, y, obj_Floor)){
+        x += 3 * move_speed * facing;
+    }
+    else{
+        while(!place_meeting(x + facing, y, obj_Floor)){
+            x += sign(facing);
+        }
+    }
+    fall_speed = 0;
+    alarm[3] = room_speed / 2;
+}
+else if(alarm[3] <= 0){
+    alarm[4] = room_speed / 3;
+}
+if(keyboard_check_released(ord('X')) and alarm[3] > 0){
+    alarm[4] = 0;
+}
+
 
 //Falling and gravity
 if(!place_meeting(x, y + min(fall_speed, max_fall_speed), obj_Solids)){
