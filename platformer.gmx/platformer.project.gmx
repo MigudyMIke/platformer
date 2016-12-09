@@ -24,6 +24,7 @@
     </sprites>
     <sprites name="triggers">
       <sprite>sprites\spr_rm_next</sprite>
+      <sprite>sprites\spr_door</sprite>
     </sprites>
     <sprite>sprites\spr_Turret</sprite>
     <sprite>sprites\spr_bullet</sprite>
@@ -31,9 +32,14 @@
     <sprite>sprites\spr_Attack_Placeholder</sprite>
     <sprite>sprites\spr_save</sprite>
     <sprite>sprites\spr_game_load</sprite>
+    <sprite>sprites\spr_slope</sprite>
+    <sprite>sprites\spr_jetpack</sprite>
+    <sprite>sprites\spr_slanted_floor</sprite>
+    <sprite>sprites\spr_DashBoots</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dev_notes</background>
+    <background>background\bg_blank</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -46,6 +52,7 @@
     <scripts name="Player Attack States">
       <script>scripts\scr_Attack_None.gml</script>
       <script>scripts\scr_Attack_Melee.gml</script>
+      <script>scripts\scr_Attack_Ranged.gml</script>
     </scripts>
     <script>scripts\scr_hud.gml</script>
     <scripts name="save and load">
@@ -63,7 +70,6 @@
     <font>fonts\fnt_code</font>
   </fonts>
   <objects name="objects">
-    <object>objects\obj_Floor</object>
     <object>objects\obj_Player</object>
     <objects name="menu">
       <object>objects\obj_mein_menu</object>
@@ -81,9 +87,19 @@
     <object>objects\obj_Bullet</object>
     <object>objects\obj_EnemyWalk</object>
     <object>objects\obj_Attack_Placeholder</object>
+    <objects name="slopes">
+      <object>objects\obj_Slope</object>
+      <object>objects\obj_Solids</object>
+      <object>objects\obj_Floor</object>
+    </objects>
+    <objects name="power ups">
+      <object>objects\obj_Jetpack</object>
+      <object>objects\obj_DashBoots</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">
+      <room>rooms\rm_load_stats</room>
       <room>rooms\rm_main_menu</room>
       <room>rooms\rm_load_game</room>
     </rooms>
@@ -94,22 +110,20 @@
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_blank</room>
+      <room>rooms\rm_ability_test</room>
       <rooms name="tutorial">
         <room>rooms\rm_intro</room>
         <room>rooms\rm_trl_jump</room>
         <room>rooms\rm_trl_enemys</room>
       </rooms>
-      <rooms name="Section jumping">
+      <rooms name="section jump">
         <room>rooms\rm_sj_1</room>
-        <room>rooms\rm_sj_2</room>
-        <room>rooms\rm_sj_3</room>
-        <room>rooms\rm_sj_4</room>
       </rooms>
     </rooms>
   </rooms>
   <constants number="2">
-    <constant name="MOVING_RIGHT">1</constant>
     <constant name="MOVING_LEFT">-1</constant>
+    <constant name="MOVING_RIGHT">1</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

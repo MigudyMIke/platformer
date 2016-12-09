@@ -25,24 +25,107 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>move_speed = 5;
-can_jump = false;
+            <string>///Initialize variables
+move_speed = 5;
+facing = MOVING_RIGHT;
+
+//Jumping variables
+first_jump = false;
+second_jump = false;
+second_jump_start = true;
+have_jetpack = false;
+
+//Dashing
+have_dash = false;
+
+//Gravity and falling
 jump_grav = -2;
-max_jump = -20;
+max_jump = -15;
 grav = 1;
 fall_speed = 0;
-max_fall_speed = 10;
+max_fall_speed = 15;
+
+//Knockback
 knockback = 10;
 kb_direction = 0;
-facing = MOVING_RIGHT;
+
+//Player states
+current_attack = scr_Attack_Melee;
+state = scr_Player_Movement;
+attack_state = scr_Attack_None;
+
 //save
 var_health = 100 + (var_health_more * 10);
 var_room = room;
-state = scr_Player_Movement;
-attack_state = scr_Attack_None;
 draw = scr_hud;
 loadgame = scr_load;
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Limit the dash</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Dash cooldown</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>605</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Ranged Attack limiter</string>
           </argument>
         </arguments>
       </action>
@@ -150,6 +233,30 @@ if (keyboard_check_pressed(vk_escape))
             <kind>1</kind>
             <string>///Execute state
 script_execute(draw);
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Draw Dash cooldown
+if(have_dash){
+    draw_healthbar(20, 50, 40, 250, 100 - alarm[3]* 200 / room_speed, c_black, c_red, c_green, 3, true, false);
+}
 </string>
           </argument>
         </arguments>

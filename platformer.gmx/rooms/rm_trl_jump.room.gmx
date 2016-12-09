@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
-  <colour>12632256</colour>
+  <colour>8404992</colour>
   <showcolour>-1</showcolour>
   <code>if (!audio_is_playing(song_3))
 {
@@ -56,7 +56,7 @@
   </views>
   <instances>
     <instance objName="obj_rm_next" x="0" y="320" name="inst_5D9D9928" locked="0" code="X = 928;&#xA;Y = 480;&#xA;var_rm_next = rm_intro;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="960" y="320" name="inst_D73C5E47" locked="0" code="X = 96;&#xA;Y = 480;&#xA;var_rm_next = rm_trl_enemys;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="960" y="320" name="inst_D73C5E47" locked="0" code="X = 96;&#xA;Y = 480;&#xA;var_rm_next = rm_trl_enemys;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="512" y="32" name="inst_9AB45863" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="32" y="160" name="inst_4C216F03" locked="0" code="" scaleX="2" scaleY="10" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="992" y="160" name="inst_42BB2734" locked="0" code="" scaleX="2" scaleY="10" colour="4294967295" rotation="0"/>
