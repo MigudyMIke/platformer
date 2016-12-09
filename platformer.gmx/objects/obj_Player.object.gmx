@@ -40,10 +40,10 @@ have_dash = false;
 
 //Gravity and falling
 jump_grav = -2;
-max_jump = -20;
+max_jump = -15;
 grav = 1;
 fall_speed = 0;
-max_fall_speed = 10;
+max_fall_speed = 15;
 
 //Knockback
 knockback = 10;

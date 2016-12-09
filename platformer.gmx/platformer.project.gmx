@@ -24,6 +24,7 @@
     </sprites>
     <sprites name="triggers">
       <sprite>sprites\spr_rm_next</sprite>
+      <sprite>sprites\spr_door</sprite>
     </sprites>
     <sprite>sprites\spr_Turret</sprite>
     <sprite>sprites\spr_bullet</sprite>
@@ -38,6 +39,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dev_notes</background>
+    <background>background\bg_blank</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -47,10 +49,10 @@
       <script>scripts\scr_Player_Knockback.gml</script>
       <script>scripts\scr_Player_Invincibility_Frames.gml</script>
     </scripts>
-    <script>scripts\scr_Attack_Ranged.gml</script>
     <scripts name="Player Attack States">
       <script>scripts\scr_Attack_None.gml</script>
       <script>scripts\scr_Attack_Melee.gml</script>
+      <script>scripts\scr_Attack_Ranged.gml</script>
     </scripts>
     <script>scripts\scr_hud.gml</script>
     <scripts name="save and load">
@@ -108,6 +110,7 @@
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_blank</room>
+      <room>rooms\rm_ability_test</room>
       <rooms name="tutorial">
         <room>rooms\rm_intro</room>
         <room>rooms\rm_trl_jump</room>
