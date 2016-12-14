@@ -75,12 +75,13 @@ obj_Player.y = Y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_colour(c_white);
+            <string>/*draw_set_colour(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_font(fnt_code);
 draw_text(self.x,self.y,string(var_rm_next));
 draw_text(self.x,self.y+10,"x "+string(X)+" y "+string(Y));
+*/
 </string>
           </argument>
         </arguments>
