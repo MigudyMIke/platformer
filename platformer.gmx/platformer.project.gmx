@@ -104,12 +104,13 @@
       <room>rooms\rm_load_game</room>
     </rooms>
     <rooms name="test">
-      <room>rooms\rm_Test</room>
+      <room>rooms\rm_Test_hall</room>
       <room>rooms\rm_test2</room>
       <room>rooms\rm_test_save</room>
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_blank</room>
+      <room>rooms\rm_sj_4</room>
       <room>rooms\rm_ability_test</room>
       <rooms name="tutorial">
         <room>rooms\rm_intro</room>
@@ -118,6 +119,8 @@
       </rooms>
       <rooms name="section jump">
         <room>rooms\rm_sj_1</room>
+        <room>rooms\rm_sj_2</room>
+        <room>rooms\rm_sj_3</room>
       </rooms>
     </rooms>
   </rooms>

@@ -13,7 +13,7 @@
   <code>if (!audio_is_playing(song_3))
 {
     audio_pause_all();
-    audio_play_sound (song_3, 10, false);
+    audio_play_sound (song_3, 10, true);
 }
 globalvar var_pause;
 var_pause = 0;
