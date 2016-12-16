@@ -76,7 +76,6 @@
     <instance objName="obj_Floor" x="800" y="832" name="inst_EB357EA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="736" y="832" name="inst_3540B60D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="672" y="832" name="inst_CF5F923E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="288" y="1312" name="inst_9167C82C" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="544" y="1312" name="inst_9EC1573B" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="864" y="1312" name="inst_017ADE6E" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="1120" y="1312" name="inst_D0BDDAAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -86,6 +85,12 @@
     <instance objName="obj_Floor" x="288" y="704" name="inst_1EC550CA" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="320" y="800" name="inst_1AEAE993" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="128" y="480" name="inst_69C90F31" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mp_v" x="1696" y="832" name="inst_2AFC7CD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mp_turn" x="1696" y="672" name="inst_974DF779" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mp_turn" x="1696" y="992" name="inst_AAD8FD54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mp_turn" x="288" y="1440" name="inst_A7F2CF7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mp_turn" x="288" y="1184" name="inst_4D78BFEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mp_v" x="288" y="1312" name="inst_89CB5D21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_blank" x="0" y="768" w="1024" h="992" xo="0" yo="0" id="10000003" name="inst_16D5F9B2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
