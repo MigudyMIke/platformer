@@ -50,14 +50,13 @@
             <kind>1</kind>
             <string>if (var_moving == 0)
 {
-    y = y - 4;
+    x = x - 4;
 }
 
 if (var_moving == 1)
 {
-    y = y + 4;
+    x = x + 4;
 }
-
 </string>
           </argument>
         </arguments>
@@ -79,17 +78,16 @@ if (var_moving == 1)
           <argument>
             <kind>1</kind>
             <string>///collison with player
-if ((obj_Player.y + 16) == y)
+if ((obj_Player.y + 16) &lt;= y + 1) &amp;&amp; ((obj_Player.y + 16) &gt;= y - 1) &amp;&amp; ((obj_Player.x + 16) &lt;= x + 16) &amp;&amp;((obj_Player.x -16) &gt;= x - 16)
 {
-    solid = true
     if (var_moving == 0)
     {
-        obj_Player.y = obj_Player.y - 4;
+        obj_Player.x = obj_Player.x - 4;
     }
     
     if (var_moving == 1)
     {
-        obj_Player.y = obj_Player.y + 4;
+        obj_Player.x = obj_Player.x + 4;
     }
 }
 </string>
@@ -123,15 +121,7 @@ if ((obj_Player.y + 16) == y)
         var_moving = 0;
         break;
 }
-/*if (var_moving == 1)
-{
-    var_moving = 0;
-    break;
-}
-if (var_moving == 0)
-{
-    y = y - 4;
-}
+
 </string>
           </argument>
         </arguments>

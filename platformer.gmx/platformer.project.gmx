@@ -37,6 +37,7 @@
     <sprite>sprites\spr_slanted_floor</sprite>
     <sprite>sprites\spr_DashBoots</sprite>
     <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\spr_one_way_platform</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dev_notes</background>
@@ -92,9 +93,11 @@
       <object>objects\obj_Slope</object>
       <object>objects\obj_Solids</object>
       <object>objects\obj_Floor</object>
-      <objects name="moving platform">
+      <objects name="platforms">
         <object>objects\obj_mp_v</object>
+        <object>objects\obj_mp_h</object>
         <object>objects\obj_mp_turn</object>
+        <object>objects\obj_platform</object>
       </objects>
     </objects>
     <objects name="power ups">
