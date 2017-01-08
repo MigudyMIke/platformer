@@ -30,14 +30,23 @@ else{
         x += sign(move_h);
     }
 }
+//collison with platform
+
+if(obj_Player.y < obj_platform.y || keyboard_check(vk_down) = false){
+    if(!place_meeting(x + move_speed * move_h, y, obj_platform)){
+       x += move_h * move_speed;
+    }
+    else{
+        while(!place_meeting(x + move_h, y, obj_platform)){
+            x += sign(move_h);
+        }
+    }
+}
 if(place_meeting(x + move_speed * move_h, y + min(fall_speed, max_fall_speed), obj_Slope)){
     while(place_meeting(x, y, obj_Slope)){
         y -= 1;
     }
-}
-
-
-
+}    
 //Jumping
 if(up and first_jump){
     if(fall_speed == 0){
