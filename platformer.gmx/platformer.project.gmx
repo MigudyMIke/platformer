@@ -36,8 +36,6 @@
     <sprite>sprites\spr_jetpack</sprite>
     <sprite>sprites\spr_slanted_floor</sprite>
     <sprite>sprites\spr_DashBoots</sprite>
-    <sprite>sprites\sprite16</sprite>
-    <sprite>sprites\spr_one_way_platform</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dev_notes</background>
@@ -93,12 +91,6 @@
       <object>objects\obj_Slope</object>
       <object>objects\obj_Solids</object>
       <object>objects\obj_Floor</object>
-      <objects name="platforms">
-        <object>objects\obj_mp_v</object>
-        <object>objects\obj_mp_h</object>
-        <object>objects\obj_mp_turn</object>
-        <object>objects\obj_platform</object>
-      </objects>
     </objects>
     <objects name="power ups">
       <object>objects\obj_Jetpack</object>
@@ -118,7 +110,6 @@
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_blank</room>
-      <room>rooms\room15</room>
       <room>rooms\rm_ability_test</room>
       <rooms name="tutorial">
         <room>rooms\rm_intro</room>
@@ -127,9 +118,6 @@
       </rooms>
       <rooms name="section jump">
         <room>rooms\rm_sj_1</room>
-        <room>rooms\rm_sj_2</room>
-        <room>rooms\rm_sj_3</room>
-        <room>rooms\rm_sj_4</room>
       </rooms>
     </rooms>
   </rooms>

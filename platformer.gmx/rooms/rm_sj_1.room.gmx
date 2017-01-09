@@ -2,7 +2,7 @@
 <room>
   <caption></caption>
   <width>1024</width>
-  <height>1536</height>
+  <height>768</height>
   <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
@@ -13,7 +13,7 @@
   <code>if (!audio_is_playing(song_3))
 {
     audio_pause_all();
-    audio_play_sound (song_3, 10, true);
+    audio_play_sound (song_3, 10, false);
 }</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
@@ -54,43 +54,8 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances>
-    <instance objName="obj_Floor" x="128" y="672" name="inst_71C7A4B4" locked="0" code="" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="0" y="448" name="inst_B4FEC027" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="512" y="32" name="inst_CA6C2A07" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="32" y="256" name="inst_8414F989" locked="0" code="" scaleX="2" scaleY="12" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="896" y="672" name="inst_45B40CC6" locked="0" code="" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="1024" y="448" name="inst_B6C72859" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="1024" y="1280" name="inst_BE544D4A" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="512" y="1504" name="inst_7A001721" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="32" y="1088" name="inst_A75AF548" locked="0" code="" scaleX="2" scaleY="24" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="992" y="992" name="inst_02E7E8A9" locked="0" code="" scaleX="2" scaleY="18" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="992" y="256" name="inst_0F0E3773" locked="0" code="" scaleX="2" scaleY="12" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="384" y="992" name="inst_8B5CD4B8" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="576" y="1280" name="inst_8BD63A6A" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
-  </instances>
-  <tiles>
-    <tile bgName="bg_blank" x="0" y="0" w="1024" h="512" xo="0" yo="0" id="10000007" name="inst_6A08A420" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_blank" x="0" y="512" w="1024" h="128" xo="0" yo="0" id="10000009" name="inst_2D633665" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_blank" x="0" y="640" w="1024" h="128" xo="0" yo="0" id="10000010" name="inst_CBD932C2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_blank" x="0" y="768" w="1024" h="128" xo="0" yo="0" id="10000011" name="inst_EB0AD940" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_blank" x="0" y="896" w="1024" h="128" xo="0" yo="0" id="10000012" name="inst_CD1F70C7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_blank" x="0" y="1024" w="1024" h="128" xo="0" yo="0" id="10000013" name="inst_AB0B621A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_blank" x="0" y="1152" w="1024" h="128" xo="0" yo="0" id="10000014" name="inst_5F45C91D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_blank" x="0" y="1280" w="1024" h="128" xo="0" yo="0" id="10000015" name="inst_B850BB28" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_blank" x="0" y="1408" w="1216" h="128" xo="0" yo="0" id="10000017" name="inst_74761894" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dev_notes" x="480" y="64" w="32" h="32" xo="0" yo="0" id="10000018" name="inst_283BED05" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dev_notes" x="512" y="96" w="32" h="32" xo="0" yo="0" id="10000019" name="inst_CF40395B" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dev_notes" x="480" y="96" w="32" h="32" xo="0" yo="0" id="10000020" name="inst_8F4BE796" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dev_notes" x="512" y="64" w="32" h="32" xo="0" yo="0" id="10000021" name="inst_F7EC4050" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dev_notes" x="768" y="608" w="32" h="32" xo="64" yo="0" id="10000022" name="inst_3DA5E06E" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dev_notes" x="576" y="480" w="32" h="32" xo="64" yo="0" id="10000023" name="inst_F2C452ED" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dev_notes" x="672" y="544" w="32" h="32" xo="64" yo="0" id="10000024" name="inst_0D121B47" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dev_notes" x="480" y="544" w="32" h="32" xo="64" yo="0" id="10000026" name="inst_A06C8487" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dev_notes" x="384" y="480" w="32" h="32" xo="64" yo="0" id="10000027" name="inst_D0E521B6" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dev_notes" x="288" y="544" w="32" h="32" xo="64" yo="0" id="10000028" name="inst_0AA83465" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dev_notes" x="192" y="608" w="32" h="32" xo="64" yo="0" id="10000029" name="inst_9299C35F" depth="100000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-  </tiles>
+  <instances/>
+  <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
