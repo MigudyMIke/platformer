@@ -78,6 +78,9 @@
     <instance objName="obj_Floor" x="800" y="832" name="inst_EB357EA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="704" y="832" name="inst_3540B60D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="608" y="832" name="inst_CF5F923E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_H_Plat" x="672" y="1312" name="inst_1F19BE68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_turn_around" x="544" y="1312" name="inst_F32E38A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_turn_around" x="800" y="1312" name="inst_3DFE5800" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_blank" x="0" y="768" w="1024" h="992" xo="0" yo="0" id="10000003" name="inst_16D5F9B2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

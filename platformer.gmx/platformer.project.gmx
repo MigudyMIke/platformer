@@ -36,6 +36,7 @@
     <sprite>sprites\spr_jetpack</sprite>
     <sprite>sprites\spr_slanted_floor</sprite>
     <sprite>sprites\spr_DashBoots</sprite>
+    <sprite>sprites\sprite16</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dev_notes</background>
@@ -91,6 +92,8 @@
       <object>objects\obj_Slope</object>
       <object>objects\obj_Solids</object>
       <object>objects\obj_Floor</object>
+      <object>objects\obj_H_Plat</object>
+      <object>objects\obj_turn_around</object>
     </objects>
     <objects name="power ups">
       <object>objects\obj_Jetpack</object>
