@@ -15,6 +15,9 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Floor</sprite>
+    <sprite>sprites\spr_platform</sprite>
+    <sprite>sprites\spr_H_Plat</sprite>
+    <sprite>sprites\spr_V_Plat</sprite>
     <sprites name="player">
       <sprite>sprites\spr_Player</sprite>
     </sprites>
@@ -93,6 +96,7 @@
       <object>objects\obj_Solids</object>
       <object>objects\obj_Floor</object>
       <object>objects\obj_H_Plat</object>
+      <object>objects\obj_V_Plat</object>
       <object>objects\obj_turn_around</object>
     </objects>
     <objects name="power ups">
