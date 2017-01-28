@@ -110,8 +110,8 @@
       <room>rooms\rm_main_menu</room>
       <room>rooms\rm_load_game</room>
     </rooms>
-    <rooms name="test">
-      <room>rooms\rm_Test</room>
+    <rooms name="hall">
+      <room>rooms\rm_main_hall</room>
       <room>rooms\rm_test2</room>
       <room>rooms\rm_test_save</room>
     </rooms>
