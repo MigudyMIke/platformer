@@ -125,6 +125,11 @@
       </rooms>
       <rooms name="section jump">
         <room>rooms\rm_sj_1</room>
+        <room>rooms\rm_sj_2</room>
+        <room>rooms\rm_sj_3</room>
+        <room>rooms\rm_sj_4</room>
+        <room>rooms\rm_sj_5</room>
+        <room>rooms\rm_sj_6</room>
       </rooms>
     </rooms>
   </rooms>

@@ -2,7 +2,7 @@
 <room>
   <caption></caption>
   <width>1024</width>
-  <height>1536</height>
+  <height>768</height>
   <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
@@ -55,28 +55,15 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_Floor" x="512" y="32" name="inst_D8E1164D" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="32" y="128" name="inst_5B960884" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Slope" x="128" y="128" name="inst_92F3FEDF" locked="0" code="" scaleX="-4" scaleY="-4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Slope" x="896" y="128" name="inst_E46B09CC" locked="0" code="" scaleX="4" scaleY="-4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="0" y="192" name="inst_1F89980B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="1024" y="192" name="inst_DF5BF1CB" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="992" y="128" name="inst_0E55198B" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="32" y="448" name="inst_C9EDD155" locked="0" code="" scaleX="2" scaleY="4" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="0" y="512" name="inst_8EBEA1C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="192" y="416" name="inst_F98721F1" locked="0" code="" scaleX="8" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="96" y="736" name="inst_E82206F6" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="288" y="608" name="inst_70E33F9B" locked="0" code="" scaleX="2" scaleY="10" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Slope" x="224" y="480" name="inst_9A1CAD42" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="928" y="416" name="inst_17BA0263" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="512" y="1504" name="inst_5012C31D" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="1024" y="1280" name="inst_530DAB5C" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="0" y="1280" name="inst_163F6592" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="32" y="1024" name="inst_E6270083" locked="0" code="" scaleX="2" scaleY="16" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Floor" x="992" y="864" name="inst_17E51443" locked="0" code="" scaleX="2" scaleY="26" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Slope" x="928" y="480" name="inst_1CB0AD03" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Slope" x="96" y="800" name="inst_1C8830A8" locked="0" code="" scaleX="-2" scaleY="-2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Slope" x="96" y="480" name="inst_23C5881F" locked="0" code="" scaleX="-2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="512" y="32" name="inst_89254238" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="512" y="736" name="inst_DA5D544C" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="32" y="288" name="inst_7AEBF275" locked="0" code="" scaleX="2" scaleY="14" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="0" y="512" name="inst_382B74F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="1024" y="128" name="inst_DD54B2BC" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Slope" x="96" y="96" name="inst_ECDFE5E7" locked="0" code="" scaleX="-2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Slope" x="928" y="96" name="inst_D03AC98D" locked="0" code="" scaleX="2" scaleY="-2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="992" y="96" name="inst_355E6E10" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="928" y="512" name="inst_F246E7AA" locked="0" code="" scaleX="6" scaleY="12" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
