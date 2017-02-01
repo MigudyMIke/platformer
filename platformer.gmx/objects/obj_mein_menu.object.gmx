@@ -67,7 +67,7 @@ switch (var_menu)
         if (keyboard_check_pressed (vk_enter))
         {
             script_execute(scr_new);
-            room_goto (rm_ability_test);
+            room_goto (rm_intro);
         }
         break;
     //contionue
