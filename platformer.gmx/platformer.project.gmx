@@ -38,8 +38,11 @@
     <sprite>sprites\spr_slope</sprite>
     <sprite>sprites\spr_jetpack</sprite>
     <sprite>sprites\spr_slanted_floor</sprite>
-    <sprite>sprites\spr_DashBoots</sprite>
+    <sprite>sprites\spr_JetPack</sprite>
     <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\spr_conveyor_belt_left</sprite>
+    <sprite>sprites\spr_conveyor_belt_right</sprite>
+    <sprite>sprites\spr_conveyor_belt_end</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dev_notes</background>
@@ -103,6 +106,11 @@
       <object>objects\obj_Jetpack</object>
       <object>objects\obj_DashBoots</object>
     </objects>
+    <objects name="obstical">
+      <object>objects\obj_con_belt_left</object>
+      <object>objects\obj_con_belt_right</object>
+      <object>objects\obj_con_belt_end</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <rooms name="menu">
@@ -117,6 +125,7 @@
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_blank</room>
+      <room>rooms\rm_sr_secrate2</room>
       <room>rooms\rm_ability_test</room>
       <rooms name="tutorial">
         <room>rooms\rm_intro</room>
@@ -132,6 +141,19 @@
         <room>rooms\rm_sj_6</room>
         <room>rooms\rm_sj_7</room>
         <room>rooms\rm_sj_8_B</room>
+      </rooms>
+      <rooms name="section run">
+        <room>rooms\rm_sr_1</room>
+        <room>rooms\rm_sr_2</room>
+        <room>rooms\rm_sr_3_save</room>
+        <room>rooms\rm_sr_4</room>
+        <room>rooms\rm_sr_5</room>
+        <room>rooms\rm_sr_6</room>
+        <room>rooms\rm_sr_7</room>
+        <room>rooms\rm_sr_8</room>
+        <room>rooms\rm_sr_9</room>
+        <room>rooms\rm_sr_10_boss</room>
+        <room>rooms\rm_sr_secrate1</room>
       </rooms>
     </rooms>
   </rooms>

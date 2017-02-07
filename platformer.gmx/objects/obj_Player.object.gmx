@@ -32,8 +32,8 @@ facing = MOVING_RIGHT;
 //Jumping variables
 first_jump = false;
 second_jump = false;
-second_jump_start = true;
-have_jetpack = true;
+second_jump_start = false;
+have_jetpack = false;
 
 //Dashing
 have_dash = true;

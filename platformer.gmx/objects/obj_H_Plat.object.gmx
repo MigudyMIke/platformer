@@ -51,7 +51,7 @@ sprite_index = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!obj_Player.y &lt; y - 32)
+            <string>if (!obj_Player.y &lt; y - 16)
 {
     image_index = 0;
 }else{
@@ -60,7 +60,7 @@ sprite_index = 0;
 if (var_p_move = 0)
 {
     x = x + var_p_speed;
-    if (round(obj_Player.y + 16 == y - 16) &amp;&amp; (obj_Player.x - 16 &lt;= x + 16 &amp;&amp; obj_Player.x + 16 &gt;= x -16))
+    if (round(obj_Player.y + 16 == y - 16) &amp;&amp; (obj_Player.x - 32 &lt;= x + 32 &amp;&amp; obj_Player.x + 32 &gt;= x - 32))
     {
         obj_Player.x = obj_Player.x + var_p_speed;
     }
@@ -68,7 +68,7 @@ if (var_p_move = 0)
 if (var_p_move = 1)
 {
     x = x - var_p_speed;
-    if (round(obj_Player.y + 16 == y - 16) &amp;&amp; (obj_Player.x - 16 &lt;= x + 16 &amp;&amp; obj_Player.x + 16 &gt;= x -16))
+    if (round(obj_Player.y + 16 == y - 16) &amp;&amp; (obj_Player.x - 32 &lt;= x + 32 &amp;&amp; obj_Player.x + 32 &gt;= x - 32))
     {
         obj_Player.x = obj_Player.x - var_p_speed;
     }

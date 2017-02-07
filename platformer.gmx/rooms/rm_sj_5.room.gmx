@@ -62,6 +62,7 @@
     <instance objName="obj_rm_next" x="1024" y="128" name="inst_DD54B2BC" locked="0" code="var_rm_next = rm_sj_6;&#xA;X = 96;&#xA;Y = 1056;" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="992" y="96" name="inst_355E6E10" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="928" y="512" name="inst_F246E7AA" locked="0" code="" scaleX="6" scaleY="12" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Jetpack" x="416" y="512" name="inst_AAF7D316" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
