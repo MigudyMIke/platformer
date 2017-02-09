@@ -58,10 +58,11 @@
     <instance objName="obj_Floor" x="512" y="32" name="inst_5A443263" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="512" y="3808" name="inst_6008BB60" locked="0" code="" scaleX="32" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="32" y="1920" name="inst_8812DAC7" locked="0" code="" scaleX="2" scaleY="120" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="1024" y="128" name="inst_97DDA277" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="1024" y="128" name="inst_97DDA277" locked="0" code="var_rm_next = rm_sr_6;&#xA;X = 96;&#xA;Y = 288;&#xA;" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="992" y="96" name="inst_D527ACC1" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="1024" y="3584" name="inst_D5404E93" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="1024" y="3584" name="inst_D5404E93" locked="0" code="var_rm_next = rm_sr_8;&#xA;X = 96;&#xA;Y = 1440;&#xA;" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="992" y="1952" name="inst_860F044F" locked="0" code="" scaleX="2" scaleY="102" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Floor" x="864" y="336" name="inst_A638A9C5" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

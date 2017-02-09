@@ -55,10 +55,10 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_rm_next" x="2048" y="384" name="inst_593D248A" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="2048" y="384" name="inst_593D248A" locked="0" code="var_rm_next = rm_main_hall;&#xA;X = 96;&#xA;Y = 1280;&#xA;" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="1024" y="672" name="inst_D5CC8219" locked="0" code="" scaleX="64" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="1024" y="96" name="inst_1E3EC97A" locked="0" code="" scaleX="64" scaleY="6" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="0" y="384" name="inst_823835BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="0" y="384" name="inst_823835BA" locked="0" code="var_rm_next = rm_sr_2;&#xA;X = 928;&#xA;Y = 1312;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="32" y="288" name="inst_3BCF0B15" locked="0" code="" scaleX="2" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="2016" y="288" name="inst_AC4A7F49" locked="0" code="" scaleX="2" scaleY="6" colour="4294967295" rotation="0"/>
   </instances>

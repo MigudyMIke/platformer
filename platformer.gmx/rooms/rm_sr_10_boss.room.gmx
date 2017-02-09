@@ -55,13 +55,13 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_rm_next" x="0" y="1152" name="inst_D30F2023" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="2048" y="1280" name="inst_A1EB1B01" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="1024" y="1504" name="inst_D66DE6DB" locked="0" code="" scaleX="64" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="1024" y="32" name="inst_422AAD48" locked="0" code="" scaleX="64" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="32" y="608" name="inst_B9E7DBE8" locked="0" code="" scaleX="2" scaleY="34" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="96" y="1408" name="inst_7888F7CD" locked="0" code="" scaleX="6" scaleY="4" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="2016" y="672" name="inst_A8F1AAFF" locked="0" code="" scaleX="2" scaleY="38" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_lock" x="2048" y="1280" name="inst_92EFC15E" locked="0" code="var_key = obj_Player.have_dash;&#xA;var_rm_next = rm_sr_;&#xA;X = 96;&#xA;Y = 2208;&#xA;" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_lock" x="0" y="1152" name="inst_75505B3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

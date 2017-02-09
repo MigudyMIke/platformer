@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1536</width>
   <height>1536</height>
-  <vsnap>16</vsnap>
-  <hsnap>16</hsnap>
+  <vsnap>32</vsnap>
+  <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -57,10 +57,10 @@
   <instances>
     <instance objName="obj_Floor" x="768" y="1504" name="inst_C89CA494" locked="0" code="" scaleX="48" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="640" y="32" name="inst_2140F0C3" locked="0" code="" scaleX="40" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="0" y="1280" name="inst_CABD2E1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="0" y="1280" name="inst_CABD2E1C" locked="0" code="var_rm_next = rm_sr_7;&#xA;X = 928;&#xA;Y = 3744;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="1504" y="768" name="inst_A358C8E8" locked="0" code="" scaleX="2" scaleY="44" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="32" y="672" name="inst_0FD05C32" locked="0" code="" scaleX="2" scaleY="38" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="1472" y="0" name="inst_E0FBF6C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_rm_next" x="1472" y="0" name="inst_E0FBF6C4" locked="0" code="var_rm_next = rm_sr_9;&#xA;X = 352;&#xA;Y = 672;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
     <instance objName="obj_Floor" x="1504" y="32" name="inst_6B8BA238" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="736" y="1264" name="inst_C4D2C446" locked="0" code="" scaleX="34" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="672" y="272" name="inst_BCDF94AF" locked="0" code="" scaleX="30" scaleY="1" colour="4294967295" rotation="0"/>

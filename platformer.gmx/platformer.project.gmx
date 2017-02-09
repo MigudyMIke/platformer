@@ -14,10 +14,6 @@
     </sounds>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_Floor</sprite>
-    <sprite>sprites\spr_platform</sprite>
-    <sprite>sprites\spr_H_Plat</sprite>
-    <sprite>sprites\spr_V_Plat</sprite>
     <sprites name="player">
       <sprite>sprites\spr_Player</sprite>
     </sprites>
@@ -28,21 +24,34 @@
     <sprites name="triggers">
       <sprite>sprites\spr_rm_next</sprite>
       <sprite>sprites\spr_door</sprite>
+      <sprite>sprites\spr_door_locked</sprite>
     </sprites>
-    <sprite>sprites\spr_Turret</sprite>
     <sprite>sprites\spr_bullet</sprite>
-    <sprite>sprites\spr_EnemyWalk</sprite>
     <sprite>sprites\spr_Attack_Placeholder</sprite>
     <sprite>sprites\spr_save</sprite>
     <sprite>sprites\spr_game_load</sprite>
-    <sprite>sprites\spr_slope</sprite>
-    <sprite>sprites\spr_jetpack</sprite>
-    <sprite>sprites\spr_slanted_floor</sprite>
-    <sprite>sprites\spr_JetPack</sprite>
-    <sprite>sprites\sprite16</sprite>
-    <sprite>sprites\spr_conveyor_belt_left</sprite>
-    <sprite>sprites\spr_conveyor_belt_right</sprite>
-    <sprite>sprites\spr_conveyor_belt_end</sprite>
+    <sprites name="power up">
+      <sprite>sprites\spr_JetPack</sprite>
+      <sprite>sprites\spr_Dash</sprite>
+    </sprites>
+    <sprites name="enemys">
+      <sprite>sprites\spr_Turret</sprite>
+      <sprite>sprites\spr_EnemyWalk</sprite>
+    </sprites>
+    <sprites name="floors/walls">
+      <sprite>sprites\spr_slope</sprite>
+      <sprite>sprites\spr_slanted_floor</sprite>
+      <sprite>sprites\spr_Floor</sprite>
+    </sprites>
+    <sprites name="obstical">
+      <sprite>sprites\spr_conveyor_belt_left</sprite>
+      <sprite>sprites\spr_conveyor_belt_right</sprite>
+      <sprite>sprites\spr_conveyor_belt_end</sprite>
+      <sprite>sprites\spr_V_Plat</sprite>
+      <sprite>sprites\spr_H_Plat</sprite>
+      <sprite>sprites\spr_turn_around</sprite>
+      <sprite>sprites\spr_platform</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_dev_notes</background>
@@ -77,7 +86,16 @@
     <font>fonts\fnt_code</font>
   </fonts>
   <objects name="objects">
+    <objects name="slopes">
+      <object>objects\obj_Floor</object>
+      <object>objects\obj_Slope</object>
+      <object>objects\obj_Solids</object>
+      <object>objects\obj_H_Plat</object>
+      <object>objects\obj_V_Plat</object>
+      <object>objects\obj_turn_around</object>
+    </objects>
     <object>objects\obj_Player</object>
+    <object>objects\obj_Attack_Placeholder</object>
     <objects name="menu">
       <object>objects\obj_mein_menu</object>
       <object>objects\obj_no_save</object>
@@ -88,19 +106,8 @@
     </objects>
     <objects name="triggers">
       <object>objects\obj_rm_next</object>
+      <object>objects\obj_rm_lock</object>
       <object>objects\obj_save</object>
-    </objects>
-    <object>objects\obj_Turret</object>
-    <object>objects\obj_Bullet</object>
-    <object>objects\obj_EnemyWalk</object>
-    <object>objects\obj_Attack_Placeholder</object>
-    <objects name="slopes">
-      <object>objects\obj_Slope</object>
-      <object>objects\obj_Solids</object>
-      <object>objects\obj_Floor</object>
-      <object>objects\obj_H_Plat</object>
-      <object>objects\obj_V_Plat</object>
-      <object>objects\obj_turn_around</object>
     </objects>
     <objects name="power ups">
       <object>objects\obj_Jetpack</object>
@@ -110,6 +117,11 @@
       <object>objects\obj_con_belt_left</object>
       <object>objects\obj_con_belt_right</object>
       <object>objects\obj_con_belt_end</object>
+    </objects>
+    <objects name="enemys">
+      <object>objects\obj_Turret</object>
+      <object>objects\obj_Bullet</object>
+      <object>objects\obj_EnemyWalk</object>
     </objects>
   </objects>
   <rooms name="rooms">
