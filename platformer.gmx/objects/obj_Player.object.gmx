@@ -254,7 +254,7 @@ script_execute(draw);
           <argument>
             <kind>1</kind>
             <string>///Draw Dash cooldown
-if(have_dash){
+if(have_dash == true){
     draw_healthbar(20, 50, 40, 250, 100 - alarm[3]* 200 / room_speed, c_black, c_red, c_green, 3, true, false);
 }
 </string>

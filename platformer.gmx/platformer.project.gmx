@@ -137,7 +137,6 @@
     </rooms>
     <rooms name="levels">
       <room>rooms\rm_blank</room>
-      <room>rooms\rm_sr_secrate2</room>
       <room>rooms\rm_ability_test</room>
       <rooms name="tutorial">
         <room>rooms\rm_intro</room>
@@ -162,6 +161,7 @@
         <room>rooms\rm_sr_5</room>
         <room>rooms\rm_sr_6</room>
         <room>rooms\rm_sr_7</room>
+        <room>rooms\rm_sr_secrate2</room>
         <room>rooms\rm_sr_8</room>
         <room>rooms\rm_sr_9</room>
         <room>rooms\rm_sr_10_boss</room>

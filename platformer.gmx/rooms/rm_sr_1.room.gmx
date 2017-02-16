@@ -58,7 +58,7 @@
     <instance objName="obj_rm_next" x="2048" y="384" name="inst_593D248A" locked="0" code="var_rm_next = rm_main_hall;&#xA;X = 96;&#xA;Y = 1280;&#xA;" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="1024" y="672" name="inst_D5CC8219" locked="0" code="" scaleX="64" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="1024" y="96" name="inst_1E3EC97A" locked="0" code="" scaleX="64" scaleY="6" colour="4294967295" rotation="0"/>
-    <instance objName="obj_rm_next" x="0" y="384" name="inst_823835BA" locked="0" code="var_rm_next = rm_sr_2;&#xA;X = 928;&#xA;Y = 1312;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_rm_next" x="0" y="384" name="inst_823835BA" locked="0" code="var_rm_next = rm_sr_2;&#xA;X = 928;&#xA;Y = 1312;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="32" y="288" name="inst_3BCF0B15" locked="0" code="" scaleX="2" scaleY="6" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="2016" y="288" name="inst_AC4A7F49" locked="0" code="" scaleX="2" scaleY="6" colour="4294967295" rotation="0"/>
   </instances>

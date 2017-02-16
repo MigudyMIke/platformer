@@ -60,17 +60,7 @@
     <instance objName="obj_Floor" x="512" y="128" name="inst_2A7BC321" locked="0" code="" scaleX="32" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="512" y="640" name="inst_03F76A8D" locked="0" code="" scaleX="32" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_next" x="960" y="320" name="inst_058E8879" locked="0" code="X = 96;&#xA;Y = 480;&#xA;var_rm_next = rm_trl_jump;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_con_belt_left" x="752" y="496" name="inst_DAAFB043" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_con_belt_left" x="720" y="496" name="inst_C1D114D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_con_belt_left" x="688" y="496" name="inst_6660E1A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_con_belt_left" x="656" y="496" name="inst_B20FC477" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_con_belt_left" x="624" y="496" name="inst_D10F6788" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_con_belt_left" x="592" y="496" name="inst_D377E797" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_con_belt_left" x="560" y="496" name="inst_FF671974" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_con_belt_left" x="784" y="496" name="inst_7030901A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_con_belt_left" x="816" y="496" name="inst_F9C27886" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_con_belt_end" x="528" y="496" name="inst_CAFBC6CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_con_belt_end" x="848" y="496" name="inst_D97464A5" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Jetpack" x="704" y="432" name="inst_58770E98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
