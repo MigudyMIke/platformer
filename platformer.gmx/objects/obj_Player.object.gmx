@@ -32,8 +32,8 @@ facing = MOVING_RIGHT;
 //Jumping variables
 first_jump = false;
 second_jump = false;
-second_jump_start = true;
-have_jetpack = true;
+second_jump_start = false;
+have_jetpack = false;
 
 //Dashing
 have_dash = true;
@@ -254,7 +254,7 @@ script_execute(draw);
           <argument>
             <kind>1</kind>
             <string>///Draw Dash cooldown
-if(have_dash){
+if(have_dash == true){
     draw_healthbar(20, 50, 40, 250, 100 - alarm[3]* 200 / room_speed, c_black, c_red, c_green, 3, true, false);
 }
 </string>

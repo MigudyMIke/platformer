@@ -28,6 +28,8 @@
             <string>var_rm_next = 0;
 X = 0;
 Y = 0;
+image_index = 0;
+image_speed = 0;
 </string>
           </argument>
         </arguments>

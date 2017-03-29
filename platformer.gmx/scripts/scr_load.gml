@@ -7,7 +7,7 @@ switch(var_save)
             var_health_max = ini_read_real("Save1", "stats", 0);
             var_health_more = ini_read_real("Save1", "stats", 0);
             var_health = ini_read_real("Save1", "stats", 0);
-            var_room = ini_read_real("Save1", "room", rm_Test);
+            var_room = ini_read_real("Save1", "room", rm_test_save);
             
             ini_close();
             
@@ -23,7 +23,7 @@ switch(var_save)
             var_health_max = ini_read_real("Save1", "stats", 0);
             var_health_more = ini_read_real("Save1", "stats", 0);
             var_health = ini_read_real("Save1", "stats", 0);
-            var_room = ini_read_real("Save1", "room", rm_Test);
+            var_room = ini_read_real("Save1", "room", rm_test_save);
             
             ini_close();
             
@@ -39,7 +39,7 @@ switch(var_save)
             var_health_max = ini_read_real("Save1", "stats", 0);
             var_health_more = ini_read_real("Save1", "stats", 0);
             var_health = ini_read_real("Save1", "stats", 0);
-            var_room = ini_read_real("Save1", "room", rm_Test);
+            var_room = ini_read_real("Save1", "room", rm_test_save);
             
             ini_close();
             
@@ -55,7 +55,7 @@ switch(var_save)
             var_health_max = ini_read_real("Save1", "stats", 0);
             var_health_more = ini_read_real("Save1", "stats", 0);
             var_health = ini_read_real("Save1", "stats", 0);
-            var_room = ini_read_real("Save1", "room", rm_Test);
+            var_room = ini_read_real("Save1", "room", rm_test_save);
             
             ini_close();
             

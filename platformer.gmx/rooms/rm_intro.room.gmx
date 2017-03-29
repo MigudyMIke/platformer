@@ -3,8 +3,8 @@
   <caption></caption>
   <width>1024</width>
   <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -60,6 +60,7 @@
     <instance objName="obj_Floor" x="512" y="128" name="inst_2A7BC321" locked="0" code="" scaleX="32" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="obj_Floor" x="512" y="640" name="inst_03F76A8D" locked="0" code="" scaleX="32" scaleY="8" colour="4294967295" rotation="0"/>
     <instance objName="obj_rm_next" x="960" y="320" name="inst_058E8879" locked="0" code="X = 96;&#xA;Y = 480;&#xA;var_rm_next = rm_trl_jump;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Jetpack" x="704" y="432" name="inst_58770E98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
